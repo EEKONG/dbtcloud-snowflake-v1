@@ -9,10 +9,14 @@ sources:
 
       - name: orders
         identifier: orders
+        columns:
+          - name: OrderID
+            tests:
+              - not_null
+              - unique
 
       - name: orderitems
         identifier: orderitems
         
       - name: employees
         identifier: employees
-        
