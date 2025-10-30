@@ -1,0 +1,18 @@
+sources:
+  - name: landing
+    database: SLEEKMART_OMS_DEV
+    schema: L1_LANDING
+
+    tables:
+      - name: sales_us
+        description: sales total in the us
+        identifier: sales_us
+    
+      - name: sales_uk
+        description: sales total in the uk
+        identifier: sales_uk
+      
+      - name: sales_india
+        description: sales total in the india
+        identifier: sales_india
+    
